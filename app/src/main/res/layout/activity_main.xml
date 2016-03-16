@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink_main"
+    >
+
+    <com.joy.demo.lovehousework.controller.HouseViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:id="@+id/viewpager_point"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/gray_main">
+        <RelativeLayout
+            android:id="@+id/layout_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_nav_selector"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@mipmap/start"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button_nav_selector"
+                style="@style/NavigationButton"
+                android:text="@string/start"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_nav_selector"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_nav_selector"
+                android:drawableLeft="@mipmap/add"
+                android:layout_centerHorizontal="true"
+                style="@style/NavigationButton"
+                android:text="@string/add"/>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

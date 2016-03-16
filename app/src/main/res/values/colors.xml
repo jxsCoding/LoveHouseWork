@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink_main">#f2787a</color>
+    <color name="gray_copyright">#8f8d8d</color>
+    <color name="gray_copyright_2">#e2dede</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_main">#555651</color>
+    <color name="pink_button_pressed">#968c87</color>
+</resources>

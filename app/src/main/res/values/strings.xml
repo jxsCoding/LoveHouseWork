@@ -1,0 +1,11 @@
+<resources>
+    <!-- activity_splash.xml-->
+    <string name="app_name">天天爱家务</string>
+    <string name="action_settings">Settings</string>
+    <string name="copy_right">2014大力开发组</string>
+    <string name="slogen_left">我\n来\n做\n裁\n判\n！</string>
+    <string name="slogen_right">这\n场\n争\n夺\n战</string>
+
+    <string name="start">开始</string>
+    <string name="add">添加</string>
+</resources>
